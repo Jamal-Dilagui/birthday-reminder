@@ -28,7 +28,7 @@ export default function Home() {
     {/* <!-- About Section --> */}
     <section className="w-full bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 flex flex-col items-center gap-4 mt-8">
       <h2 className="text-2xl font-bold text-blue-600 dark:text-blue-300 mb-2 flex items-center gap-2"><i className="fa-solid fa-info-circle"></i> About the App</h2>
-      <p className="text-gray-600 dark:text-gray-200 text-center max-w-2xl text-lg">WhatsApp Birthday Reminder helps you keep track of your loved ones' birthdays and sends you timely reminders via WhatsApp. Add birthdays, customize your reminder message, and never miss a special day again. Designed for simplicity, privacy, and a delightful user experience.</p>
+      <p className="text-gray-600 dark:text-gray-200 text-center max-w-2xl text-lg">WhatsApp Birthday Reminder helps you keep track of your loved ones&apos; birthdays and sends you timely reminders via WhatsApp. Add birthdays, customize your reminder message, and never miss a special day again. Designed for simplicity, privacy, and a delightful user experience.</p>
     </section>
   </main>
   );
