@@ -40,6 +40,9 @@ function Navbar() {
                     <span className="px-3 py-1 font-semibold text-blue-700 dark:text-blue-300 border-b-4 border-blue-500 dark:border-blue-300 rounded">
                         Welcome, {session.user.name}
                     </span>
+                    <Link href="/dashboard" className="bg-blue hover:bg-blue-600 text-white font-semibold rounded-lg px-4 py-2 flex items-center gap-2 transition shadow focus:ring-2 focus:ring-blue-400 focus:outline-none">
+                        <i className="fa-solid fa-gauge"></i> Dashboard
+                    </Link>
                     <button onClick={() => signOut()} className="bg-btnBg hover:bg-btnBg-600 text-white font-semibold rounded-lg px-4 py-2 flex items-center gap-2 transition shadow focus:ring-2 focus:ring-blue-400 focus:outline-none">
                         <i className="fa-solid fa-right-to-bracket"></i> Logout
                     </button>

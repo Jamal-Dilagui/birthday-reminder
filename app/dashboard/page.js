@@ -2,6 +2,7 @@ import AddBirthday from "../_component/addBirthday"
 import BirthdayList from "../_component/BirthdayList"
 import NotificationToggle from "../_component/NotificationToggle"
 import Setting from "../_component/Setting"
+import WhatsAppTest from "../_component/WhatsAppTest"
 
 export default function Home() {
     return(
@@ -19,6 +20,7 @@ export default function Home() {
                 </div>
                 {/* <!-- Right: Birthdays List --> */}
                 <BirthdayList/>
+                {/* <WhatsAppTest/> */}
             </div>
         </main>
     )

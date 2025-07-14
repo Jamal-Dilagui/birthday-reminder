@@ -29,7 +29,7 @@ export default function Login() {
                 setError(result.error);
                 return;
             }
-            router.replace("/dashboard");
+            router.push("/dashboard");
         } catch (error) {
             setError("An unexpected error occurred");
             console.error("Login error:", error);
